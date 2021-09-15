@@ -30,7 +30,7 @@
 				</div>
 				<div class="collapse navbar-collapse" id="myNavbar">
 					<ul class="nav navbar-nav">
-						<li class="active"><a href="index.html">Inicio</a></li>
+						<li><a href="index.html">Inicio</a></li>
 						<li><a href="equipo.html">Equipo</a></li>
 						<li><a href="contacto.html">Contacto</a></li>
 						<li><a href="https://www.blog.importcoffee.es/" target="_blank">Blog </a></li>
@@ -59,72 +59,96 @@
 				</div>
 			</div>
 		</nav>
-		<div id="cabecera" style="margin-top:50px;background-color:rgb(17,17,17);">
-			<img class="img-responsive" src="images/inicio.jpg" style="display: block;margin-left: auto;margin-right: auto;">
-		</div>
 		<div class="container" style='min-height: 100vh;' id="container_">
 			<div class="jumbotron" style="background:transparent !important">
-				<h2><b>Bienvenido a la web de Import Coffee</b></h2>
+				<br>
+				<h2><b>¡Únete a Import Coffee!</b></h2>
 				<hr>
 				<p>
-				Sé bienvenido a la web de la asociación de programación de la Facultad
-				de Estudios Estadísticos de la Universidad Complutense de Madrid (UCM).
-				Aquí podrás encontrar multitud de información útil así como tutoriales,
-				así que ponte cómodo, instala tus dependencias e importa un café.
+					¿Eres un estudiate de la facultad de estudios estadísticos y te apasiona la programación? ¡Si es asi rellena este formulario para unirte
+					a Import Coffee!
 				</p>
-				<div class="well" style="background-color: #f5f5f5 !important; color: black !important;">
-					pip install coffee <br> from Coffee import coffee
-				</div>
-				<h2><b>¿Qué hacemos en Import Coffee?</b></h2>
-				<hr>
-				<p>
-				Somos un grupo de estudiantes de la Facultad de Estadística Aplicada de
-				la UCM, a los cuales nos apasiona el mundo de la tecnología y la programación.
-				Desde import coffee realizamos multitud de actividades y proyectos
-				(desde talleres y charlas hasta aplicaciones informáticas así como esta
-				maravillosa web).
-				</p>
-				<div class="row">
-					<div class="col-md-4 col-sm-6">
-						<div class="serviceBox">
-							<div class="service-icon">
-								<a href="#">
-									<i class="fa fa-trophy"></i>
-								</a>
-							</div>
-							<div>
-								<h3>Proyectos y competiciones</h3>
-								<p>Ya sea una red neuronal para localizar basura especial, una plataforma metereólogica o una aplicación de gestión de portafolios financieros, aquí tiene cabida.</p>
-							</div>
-						</div>
+				<form class="form-horizontal" action="https://docs.google.com/forms/d/e/1FAIpQLSeoEQWagGw9pLAgevO4ZPt3VnDAgySJrTvtEuf5IFu33qDO1A/formResponse" method="POST">
+					<div class="form-group">
+					  <label class="control-label col-sm-2" for="nombre">Nombre:</label>
+					  <div class="col-sm-10">
+						<input type="text" class="form-control" id="nombre" placeholder="Import Coffee" name="entry.485924448">
+					  </div>
 					</div>
-					<div class="col-md-4 col-sm-6">
-						<div class="serviceBox">
-							<div class="service-icon">
-								<a href="#">
-									<i class="fa fa-users"></i>
-								</a>
-							</div>
-							<div>
-								<h3>Talleres y charlas</h3>
-								<p>Desde la asociación queremos ofrecer a la comunidad universitaria la facilidad de aprender sobre temáticas relacionadas con la tecnología de forma accesible y gratuita.</p>
-							</div>
-						</div>
+					<div class="form-group">
+					  <label class="control-label col-sm-2" for="correo">Correo UCM:</label>
+					  <div class="col-sm-10">          
+						<input type="email" class="form-control" id="correo" placeholder="importcoffee@ucm.es" name="entry.1839371266">
+					  </div>
 					</div>
-					<div class="col-md-4 col-sm-6">
-						<div class="serviceBox">
-							<div class="service-icon">
-								<a href="#">
-									<i class="fa fa-university"></i>
-								</a>
-							</div>
-							<div>
-								<h3>Vida universitaria y salud</h3>
-								<p>En import coffee estamos sumamente concienzados con la salud de nuestros miembros, es por eso que promovemos la afinidad de una alimentación saludable y ejercicio y la complementación del tiempo de trabajo y el de ocio.</p>
-							</div>
-						</div>
+					<div class="form-group">        
+					  <div class="col-sm-offset-2 col-sm-10">
+						<button type="submit" class="btn btn-default">Unirse</button>
+					  </div>
 					</div>
-				</div>
+				  </form>
+				  <h2><b>Q&A</b></h2>
+				  <hr>
+				  <div class="panel-group" id="accordion">
+					<div class="panel panel-default">
+					  <div class="panel-heading">
+						<h4 class="panel-title">
+						  <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+							¿Que haceis con esta información?
+						  </a>
+						</h4>
+					  </div>
+					  <div id="collapse1" class="panel-collapse collapse">
+						<div class="panel-body">
+							Usaremos unicamente esta información para ponernos en contacto contigo.
+						</div>
+					  </div>
+					</div>
+					<div class="panel panel-default">
+					  <div class="panel-heading">
+						<h4 class="panel-title">
+						  <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+							¿Dónde se guarda esta información?
+						  </a>
+						</h4>
+					  </div>
+					  <div id="collapse2" class="panel-collapse collapse">
+						<div class="panel-body">
+							Cada vez que alguien rellena este formulario, se manda su respuesta a un google form y se almacena en su correspondiente formato. En resumen,
+							este formulario es lo mismo que rellenar el <a href="https://docs.google.com/forms/d/e/1FAIpQLSeoEQWagGw9pLAgevO4ZPt3VnDAgySJrTvtEuf5IFu33qDO1A/viewform">formulario de google</a>.
+						</div>
+					  </div>
+					</div>
+					<div class="panel panel-default">
+					  <div class="panel-heading">
+						<h4 class="panel-title">
+						  <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+							¿Puedo solicitar la eliminación de mis datos?
+						  </a>
+						</h4>
+					  </div>
+					  <div id="collapse3" class="panel-collapse collapse">
+						<div class="panel-body">
+							¡Claro!. Escribenos un correo a <b>importcoffee@ucm.es</b> indicando aproximadamente el día que mandaste la solicitud así como el nombre y correo que rellenaste
+							y nosotros haremos el resto.
+						</div>
+					  </div>
+					</div>
+					<div class="panel panel-default">
+						<div class="panel-heading">
+						  <h4 class="panel-title">
+							<a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+							  Alternativas a este formulario
+							</a>
+						  </h4>
+						</div>
+						<div id="collapse4" class="panel-collapse collapse">
+						  <div class="panel-body">
+							  ¡Escribenos un correo a <b>importcoffee@ucm.es</b> indicando que quieres unirte a Import Coffee!
+						  </div>
+						</div>
+					  </div>
+				  </div> 
 			</div>
 		</div>
 		<div class="footer text-center" style='background-color:#101010'>
